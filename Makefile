@@ -1,4 +1,4 @@
-.PHONY: download
+.PHONY: download csv
 
 URL?=https://servicodados.ibge.gov.br/api/v2/cnae
 
@@ -8,3 +8,6 @@ download:
 	curl $(URL)/grupos | jq . > grupos.json
 	curl $(URL)/classes | jq . > classes.json
 	curl $(URL)/subclasses | jq . > subclasses.json
+
+csv:
+	python tocsv.py subclasses.json cnae.csv
