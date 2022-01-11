@@ -34,6 +34,7 @@ of the returned objects below:
 
 <details>
 <summary>Example JSON</summary>
+
 ```json
 {
   "id": "4929902",
@@ -67,6 +68,7 @@ of the returned objects below:
   ]
 }
 ```
+
 </details>
 
 In order to convert the returned JSON into a CSV, we use CSV because it is
