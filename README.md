@@ -14,7 +14,7 @@ Dump of all CNAE codes from [IBGE][1]
 
 Script that downloads all available data from IBGE's [API][2]. The API has
 endpoints that return all data available. I am not sure if that is intended,
-but makes our life easier ¯\\_(ツ)_/¯
+but makes our life easier ¯\\\_(ツ)\_/¯
 
 The hierarchy of data is defined like so:
 
